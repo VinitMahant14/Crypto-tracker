@@ -1,0 +1,103 @@
+/* Write your CSS code here */
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.crypto-currency-main-contaniner {
+  background-color: rgb(0, 0, 0);
+  padding: 50px 20px;
+  min-height: 100vh;
+  max-height: 100%;
+}
+@media screen and (min-width: 768px) {
+  .crypto-currency-main-contaniner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.crypto-currency-heading {
+  color: #00e7ff;
+  text-align: center;
+  font-size: 22px;
+}
+@media screen and (min-width: 768px) {
+  .crypto-currency-heading {
+    font-size: 50px;
+    font-family: 'Cambria, Cochin, Georgia, Times, Times New Roman, serif';
+  }
+}
+
+.crypto-currency-banner-image {
+  width: 100%;
+  padding: 50px 0px;
+}
+@media screen and (min-width: 768px) {
+  .crypto-currency-banner-image {
+    padding: 50px 20px;
+  }
+}
+
+.crypto-currency-table-container {
+  border: 4px solid #00e7ff;
+  border-radius: 5px;
+}
+@media screen and (min-width: 768px) {
+  .crypto-currency-table-container {
+    width: 80%;
+  }
+}
+
+.table-heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #092e33;
+  width: 100%;
+  padding: 0px 20px;
+}
+
+.coin-heading {
+  font-size: 16px;
+  color: white;
+  padding: 10px;
+  width: 60%;
+}
+@media screen and (min-width: 768px) {
+  .coin-heading {
+    padding-left: 20px;
+    font-size: 22px;
+  }
+}
+
+.USD-EURO-coin-heading-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+.USD-EURO-coin-heading {
+  font-size: 16px;
+  color: white;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .USD-EURO-coin-heading {
+    font-size: 22px;
+  }
+}
+
+.table-values-container {
+  padding: 0px 15px;
+  width: 100%;
+}

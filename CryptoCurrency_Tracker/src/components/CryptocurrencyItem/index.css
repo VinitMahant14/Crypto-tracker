@@ -1,0 +1,64 @@
+/* Write your CSS code here */
+
+.table-value-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  list-style: none;
+  padding-left: 0px;
+}
+@media screen and (min-width: 768px) {
+  .table-value-item-container {
+    padding: 10px;
+  }
+}
+
+.left-column-value-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 60%;
+}
+.coin-name {
+  color: white;
+  font-size: 14px;
+}
+@media screen and (min-width: 768px) {
+  .coin-name {
+    font-size: 18px;
+  }
+}
+
+.coin-logo-image {
+  height: 30px;
+  padding-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .coin-logo-image {
+    height: 50px;
+  }
+}
+
+.right-column-value-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 40%;
+}
+.USD-EURO-number-text {
+  color: white;
+  padding: 0px;
+  width: 50%;
+  font-size: 14px;
+  text-align: center;
+  margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .USD-EURO-number-text {
+    font-size: 18px;
+  }
+}
